@@ -1,0 +1,93 @@
+.bg-primary-gradient {
+  background: linear-gradient(135deg, #1e3a8a 0%, #3b82f6 100%);
+}
+
+.bg-danger-gradient {
+  background: linear-gradient(135deg, #991b1b 0%, #dc2626 100%);
+}
+
+.card {
+  transition: transform 0.3s ease;
+}
+
+.card:hover {
+  transform: translateY(-5px);
+}
+
+.bg-blue-gradient { background: linear-gradient(135deg, var(--blue-dark) 0%, var(--blue) 100%); }
+.bg-gold-gradient { background: linear-gradient(135deg, var(--gold-dark) 0%, var(--gold) 100%); }
+.bg-vip-gradient { background: linear-gradient(135deg, var(--vip-dark) 0%, var(--vip) 100%); }
+.bg-silver-gradient { background: linear-gradient(135deg, var(--silver-dark) 0%, var(--silver) 100%); }
+
+.text-blue { color: var(--blue); }
+.text-gold { color: var(--gold); }
+.text-vip { color: var(--vip); }
+.text-silver { color: var(--silver); }
+
+.border-blue { border-color: var(--blue) !important; }
+.border-vip { border-color: var(--vip) !important; }
+
+.btn-blue {
+  background-color: var(--blue);
+  color: white;
+  border-color: var(--blue);
+}
+.btn-gold {
+  background-color: var(--gold);
+  color: white;
+  border-color: var(--gold);
+}
+.btn-vip {
+  background-color: var(--vip);
+  color: white;
+  border-color: var(--vip);
+}
+.btn-silver {
+  background-color: var(--silver);
+  color: white;
+  border-color: var(--silver);
+}
+
+.btn-blue:hover, .btn-gold:hover, .btn-vip:hover, .btn-silver:hover {
+  opacity: 0.9;
+  color: white;
+}
+
+.card {
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+.card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 10px 20px rgba(0,0,0,0.1) !important;
+}
+
+.display-5 {
+  font-size: 2.5rem;
+}
+
+
+.carousel-control-prev,
+.carousel-control-next {
+  position: absolute;
+  width: 40px; /* Changed from 0% to 40px */
+  height: 40px;
+  top: 50%;
+  transform: translateY(-50%);
+  background-color: rgba(0,0,0,0.2);
+  border-radius: 50%;
+  opacity: 0.8;
+  transition: all 0.3s ease;
+}
+
+.carousel-control-prev:hover,
+.carousel-control-next:hover {
+  background-color: rgba(0,0,0,0.5);
+}
+
+.carousel-control-prev {
+  left: -5px;
+}
+
+.carousel-control-next {
+  right: -5px;
+}

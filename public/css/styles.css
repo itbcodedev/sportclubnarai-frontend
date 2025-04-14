@@ -89,6 +89,15 @@
   --bs-link-hover-color: #085caf;
   --bs-code-color: #d63384;
   --bs-highlight-bg: #fff3cd;
+
+  --blue: #3b82f6;
+  --blue-dark: #1d4ed8;
+  --gold: #f59e0b;
+  --gold-dark: #d97706;
+  --vip: #8b5cf6;
+  --vip-dark: #7c3aed;
+  --silver: #94a3b8;
+  --silver-dark: #64748b;
 }
 
 *,
