@@ -91,3 +91,31 @@
 .carousel-control-next {
   right: -5px;
 }
+
+.cta-section {
+  background-color: #f8f9fa;
+  padding: 50px 0;
+  text-align: center;
+}
+.cta-section h2 {
+  font-size: 2rem;
+  margin-bottom: 20px;
+  font-weight: bold;
+}
+.cta-section p {
+  font-size: 1.2rem;
+  margin-bottom: 30px;
+}
+.cta-btn {
+  background-color: #28a745;
+  color: white;
+  padding: 12px 30px;
+  border-radius: 30px;
+  font-size: 1.1rem;
+  text-transform: uppercase;
+  transition: background-color 0.3s;
+  text-decoration: none;
+}
+.cta-btn:hover {
+  background-color: #218838;
+}
